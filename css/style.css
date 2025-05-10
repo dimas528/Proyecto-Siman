@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    font-family: "Montserrat", sans-serif !important;
+
+}
+body{
+    font-family: "Open Sans" ,sans-serif !important;
+}
+
+:root{
+    --rojo: #a83338;
+    --gris: #e6e6e6;
+    --blanco: white;
+    --negro: black
+
+}
+.header{
+
+    background-color: var(--rojo);
+    padding: 5px 10%;
+    height: 65px;
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: var(--blanco);         
+}
+.mainlogo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 200px;       
+    width: 200px;
+}
+.mainlogo img{
+    height: 100%;     
+    width: 100%;  
+  
+
+   
+}
+.header p{
+    margin: 0;
+    padding: 0;
+}
+.tb1{
+    position: relative;
+  
+    
+}
+.tb1 input{
+    width: 350px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+
+}
+.tb1 button{
+    background-color: var(--gris);
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    color: negro;
+}
+
+.lista1{
+    margin: 0;
+    padding: 0;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    font-size: 19px;
+}
+
+.sub-h {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: var(--gris);
+    height: 40px;
+    padding: 0 2rem; 
+    flex-wrap: wrap; 
+  }
+  
+  .sub-h p {
+    margin: 0;
+    padding: 0 0rem;
+    white-space: nowrap; 
+    font-size: 18px;
+  }
+  
+
+.carrusel{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 .3rem 0 .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.articulos article {
+    width: 200px;
+    background-color:var(--gris);
+    border-radius: 8px;
+    padding: 1rem;
+}
+.articulos img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.articulos_dos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:.5rem
+}
+.articulos_dos img{
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.descripcion p {
+    margin: 3rem;
+    text-align: justify;
+}
