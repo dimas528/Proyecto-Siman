@@ -37,8 +37,8 @@ a {
     padding: 0;
     margin: 0;
     display: flex;
-    height: 200px;       
-    width: 200px;
+    height: 50%;       
+    width:70%;
 }
 .mainlogo img{
     height: 100%;     
@@ -75,7 +75,7 @@ a {
     right: 0;
     margin: auto;
     border-radius: 5px;
-    color: negro;
+    color: var(--negro);
 }
 
 .lista1{
@@ -144,4 +144,48 @@ a {
 .descripcion p {
     margin: 3rem;
     text-align: justify;
+}
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+@media (max-width:768px ){
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+    .mainlogo{
+        height: 80px;
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+    .tb1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .tb1 input{
+        width: 100%;
+        padding-right: 40px;
+    }
+    .tb1 button{
+        padding: 10px;
+    }
+    .lista1{
+        flex-direction: column;
+        width: 100%;
+        gap:12px
+    }
+    .sub-h{
+        align-items: flex-start;
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+        gap: 7px;
+    }
+    .sub-h p{
+        margin-left: 0.5rem;
+
+    }
 }
